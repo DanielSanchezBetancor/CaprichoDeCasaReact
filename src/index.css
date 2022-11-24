@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;500&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --full-box-shadow: 1px 1px 10px 0px rgb(12 12 12 / 75%);
+    --half-box-shadow: 1px 1px 10px 0px rgb(12 12 12 / 50%);
+    --light-black: #3a3a3a;
+    --light-grey: #f0f0f0;
+}
+* {
+    font-family: 'Lexend Deca', "Barlow Semi Condensed", "Sono", "Oswald", sans-serif,
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    color: var(--light-black);
+}
+/* Creates a left border to separate groups of components */
+.separator {
+    border: solid #0c0c0c;
+    border-width: 0 0 0 1px;
+}
+a {
+    text-decoration: none;
+    align-self: center;
+}
+.p-title {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px 0;
 }

@@ -1,0 +1,40 @@
+.hero-page {
+    overflow-x: hidden;
+    position: relative;
+}
+.hero-page__carousel {
+    height: calc(100vh - 75px);
+    transform: translateX(-10%);
+    opacity: 0.6;
+}
+.hero-page__search {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    top: 50vh;
+    left: 10%;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: var(--full-box-shadow);
+}
+.hero-page__input-search {
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    top: calc(50vh + 3px);
+    left: calc(80% - 5px);
+    z-index: 2;
+}
+.hero-page__introduction {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    width: 80%;
+    left: 10%;
+    top: 10vh;
+    position: absolute;
+    z-index: 1;
+    text-shadow: var(--full-box-shadow);
+    color: var(--light-black);
+    font-weight: 200;
+}

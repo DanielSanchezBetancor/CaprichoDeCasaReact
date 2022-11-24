@@ -1,0 +1,10 @@
+.subnavbar {
+    padding: 5px 1rem 5px 1rem;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    overflow-x: scroll;
+}
+.subnavbar::-webkit-scrollbar {
+    display: none;
+}

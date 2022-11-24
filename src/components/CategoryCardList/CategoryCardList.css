@@ -1,0 +1,26 @@
+.category-card-list__categories {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+.category-card-list__categories__card {
+    box-shadow: var(--half-box-shadow);
+    padding: 5px;
+    text-align: center;
+    background-color: var(--light-grey);
+    align-self: initial;
+}
+.category-card-list__categories__card__image {
+    width: 100%;
+    height: calc(90% - 20px);
+}
+.category-card-list__categories__card__content {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
